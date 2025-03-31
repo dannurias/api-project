@@ -17,4 +17,24 @@ git config --global user.email "danuias2003@gmail.com"
 git remote add origin https://github.com/dannurias/api-project.git
 
 git branch -M master
-git push -u origin master
+git push -u origin 
+
+
+
+
+
+PORT = "3000"
+DB_HOST = "localhost"
+DB_PORT = "3306"
+DB_USERNAME="root"
+DB_NAME="nodejs2025"
+
+
+ACCES_TOKEN_SECRET=""
+REFRESH_TOKEN_SECRET=""
+ACCES_TOKEN_EXPIRATION="600"
+REFRESH_TOKEN_EXPIRATION="1200"
+BYCRYPT_SALT_ROUNDS="12"
+
+
+.env
