@@ -1,0 +1,17 @@
+para el package.json
+
+npm init -y  <-- comando
+
+para instalar las dependencias
+
+npm install express dotenv cors <-- express es el framework que usaremos para el backend, dotenv para cargar variables de entorno y cors para permitir el acceso a la api desde otros dominios
+
+instalar typescript
+
+npm install -D typescript @typescipt @types/node @types/express @types/cors ts-node nodemon <-- para instalar typescript
+
+
+git config --global user.name "dannurias"
+git config --global user.email "danuias2003@gmail.com"
+
+git remote add origin https://github.com/dannurias/api-project.git
