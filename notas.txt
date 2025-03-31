@@ -15,3 +15,6 @@ git config --global user.name "dannurias"
 git config --global user.email "danuias2003@gmail.com"
 
 git remote add origin https://github.com/dannurias/api-project.git
+
+git branch -M master
+git push -u origin master
