@@ -19,7 +19,13 @@ git remote add origin https://github.com/dannurias/api-project.git
 git branch -M master
 git push -u origin 
 
+npm install http-status-codes <-- para instalar el paquete http-status-codes que sirve para los codigos de estado de respuesta
+npm install --save-dev @types/http-status-codes <-- para instalar el tipo de http-status-codes que sirve para los codigos de estado de respuesta la diferencia es que estamos instalandolo como dependencia de desarrollo
 
+npm install --save-dev eslint <- para configurar he instalar Eslint
+npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser <--
+npm install --save-dev prettier <-- para configurar prettier
+npm install --save-dev eslint-config-prettier eslint-plugin-prettier <-- para configurar eslint-config-prettier y eslint-plugin-prettier
 
 
 
