@@ -19,7 +19,6 @@
     "migration:revert": "npm run typeorm   --  -d src/app-data-source.ts migration:revert",
     "schema:sync": "npm run typeorm   --  -d src/app-data-source.ts schema:sync",
     "schema:drop": "npm run typeorm   --  -d src/app-data-source.ts schema:drop"
-
   },
   "keywords": [],
   "author": "",

@@ -25,16 +25,16 @@ class App {
     this.app.use(express.json());
     // Database
     myDataSource
-    .initialize()
-    .then(() => {
-      appLogger.info("Database connected");
-    })
-    .catch((err) =>{
-      appLogger .error("Database connection error",err);
-    });
+      .initialize()
+      .then(() => {
+        appLogger.info("Database connected");
+      })
+      .catch((err) => {
+        appLogger.error("Database connection error", err);
+      });
   }
   private routes(): void {
-    this.app.get("/favicon.ico",function(req,res){
+    this.app.get("/favicon.ico", function (req, res) {
       res.sendStatus(StatusCodes.NO_CONTENT);
     });
     this.app.use("/api", routes);
